@@ -9,3 +9,9 @@ This folder contains all the assignment of the course COL759 : "Cryptography &am
 
 ## Assignment 2 :  
 ### Authenticate encryption using Symmetric & Assymetric cryptosystem together
+-> First we generate strong primes using "Gordon Method". 
+-> Then we generate the public and private keys for both the users using that.
+-> Then the digital signature of the all the keys is generated and finally the keys concatenated with their digital signature with '@' in between is stored in the keys folder.
+-> Then first we verify the authenticity of the sender A and after that we will start encrypting the plaintext by using Vignere encryption technique and RSA together as given in the problem statement.
+-> Then we verify the authenticity of the receiver B and after that we will start decrypting the ciphertext by using Vignere encryption technique and RSA together as given in the problem statement.
+-> We also used the Chinese Remainder Theoram (CRT) to make the computations of RSA less time costly. 
