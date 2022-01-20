@@ -1,0 +1,7 @@
+Vigenere key - vigKey.txt
+
+input text - Inp.txt
+
+Encrypted input text file (user 1 side) - enc.txt
+
+Decrypted input text file (user 2 side) - Dec.txt
